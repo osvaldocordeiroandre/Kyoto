@@ -36,10 +36,10 @@ function scrollToIdOnClick(event){
 function botaoMenu() {
     let menu = document.querySelector('.nav-list');
 
-    if (menu.style.right == '-200vw') {
-      menu.style.right = '0';
+    if (menu.style.display == 'flex') {
+      menu.style.display= 'none';
     } else {
-      menu.style.right = '-200vw';
+      menu.style.display = 'flex';
     }
 
   };

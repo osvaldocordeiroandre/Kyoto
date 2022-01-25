@@ -254,6 +254,8 @@ button:hover{
         flex-direction: column;
         align-items: center;
 
+        display: none;
+
         position: fixed;
         top: 0vh;
         right: -250vw;
