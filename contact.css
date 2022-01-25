@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+main h2{
+    text-align: center;
+
+    font-family: Roboto;
+    font-weight: 100;
+
+    font-size: 1rem;
+
+}
+
+@media (max-width: 769px){
+    .nav-list{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+        position: fixed;
+        top: 10vh;
+        right: -200vw;
+
+        align-items: center;
+
+        font-size: 1.875rem;
+
+        padding: 10px;
+
+        margin: 0;
+
+        position: absolute;
+        top: 20vh;
+        right: 0;
+
+        background-color: white;
+
+        width: 6.25rem;
+        height: 24.375rem;
+
+        border-radius: 0.625rem;
+
+        transition: 0.7s ease-in-out;
+
+    }
+
+    #work{
+        padding-top: 1.875rem;
+    }
+
+    #contact{
+        padding-bottom: 1.875rem;
+    }
+
+    .mobile{
+        display: block;
+
+        cursor: pointer;
+    }
+
+    .medias-sociais-logo{
+        display: none;
+    }
+
+    .image-logo{
+        padding: 0;
+        padding-left: 2.5rem;
+    }
+
+}
+
+@media (max-width: 630px){
+    input{
+        width: 18.75rem;
+    }
+
+    textarea{
+        width: 18.75rem;
+    }
+}
