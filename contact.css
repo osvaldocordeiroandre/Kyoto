@@ -17,11 +17,11 @@ main h2{
         flex-direction: column;
         align-items: center;
 
-        position: fixed;
-        top: 10vh;
-        right: -200vw;
+        display: none;
 
-        align-items: center;
+        position: fixed;
+        top: 0vh;
+        right: -250vw;
 
         font-size: 1.875rem;
 
@@ -40,8 +40,7 @@ main h2{
 
         border-radius: 0.625rem;
 
-        transition: 0.7s ease-in-out;
-
+        transition: 0.4s ease-in-out;
     }
 
     #work{
@@ -64,7 +63,7 @@ main h2{
 
     .image-logo{
         padding: 0;
-        padding-left: 2.5rem;
+        padding-left: 10px;
     }
 
 }
