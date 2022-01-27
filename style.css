@@ -243,6 +243,8 @@ button:hover{
 
     font-size: 1.25rem;
 
+    margin-right: 30px;
+
     display: none;
 }
 
@@ -300,7 +302,7 @@ button:hover{
 
     .image-logo{
         padding: 0;
-        padding-left: 2.5rem;
+        padding-left: 10px;
     }
 
 }
